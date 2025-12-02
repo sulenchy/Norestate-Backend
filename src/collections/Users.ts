@@ -18,12 +18,14 @@ const isSelf: Access = ({ req: { user }, id }) => {
 
 const Users: CollectionConfig = {
   slug: 'users',
-  auth: true,
+  auth: {
+    useAPIKey: true,
+  },
   admin: {
     useAsTitle: 'email',
   },
   access: {
-    create: isAdmin,
+    create: () => true,
     read: isAdmin,
     update: isSelf,
     delete: isAdmin,
