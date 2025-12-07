@@ -61,7 +61,7 @@ export const seed = async (payload: Payload) => {
 
   if (mediaResult.docs.length === 0) {
     console.log('Seeding placeholder media...');
-    const dummyImagePath = path.resolve(__dirname, '../media/1x1.png');
+    const dummyImagePath = path.resolve(__dirname, '../media/1x1.jpg');
     const media1 = await payload.create({
       collection: 'media',
       data: {
