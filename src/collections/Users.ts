@@ -26,7 +26,7 @@ const Users: CollectionConfig = {
   },
   access: {
     create: () => true,
-    read: isAdmin,
+    read: () => true,
     update: isSelf,
     delete: isAdmin,
   },
