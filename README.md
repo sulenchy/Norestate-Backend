@@ -47,7 +47,7 @@ npm run start
 
 ## API Endpoint
 
-The production API is available at: `https://norestate-api.onrender.com`
+The production API is available at: `https://norestate-api-7pjx.onrender.com/`
 
 ## Available Scripts
 
