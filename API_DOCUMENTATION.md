@@ -2,6 +2,10 @@
 
 This document outlines the API endpoints and data models for the Norestate Backend application.
 
+## Base URL
+
+The base URL for all API endpoints is: `https://norestate-api.onrender.com`
+
 ## Collections
 
 ### Users
