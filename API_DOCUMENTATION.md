@@ -5,6 +5,7 @@ This document outlines the API endpoints and data models for the Norestate Backe
 ## Base URL
 
 The base URL for all API endpoints is: `https://norestate-api-7pjx.onrender.com/`
+
 Payload REST API: https://payloadcms.com/docs/rest-api/overview
 
 ## Collections
