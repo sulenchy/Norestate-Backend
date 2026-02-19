@@ -14,7 +14,7 @@
   "dependencies": {
     "@fastify/express": "^2.3.0",
     "@payloadcms/bundler-webpack": "^1.0.7",
-    "@payloadcms/db-postgres": "^0.1.2",
+    "@payloadcms/db-postgres": "^3.66.0",
     "@payloadcms/richtext-slate": "^1.0.11",
     "cross-env": "^7.0.3",
     "dotenv": "^8.2.0",
